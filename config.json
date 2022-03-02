@@ -14,6 +14,7 @@
     "uisi_autorageshake_app": "element-auto-uisi",
     "showLabsSettings": true,
     "default_theme": "dark",
+    "disable_3pid_login": true,
     "piwik": {
         "url": "https://piwik.riot.im/",
         "whitelistedHSUrls": ["https://matrix.org"],
