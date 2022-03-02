@@ -5,8 +5,7 @@
 /lib
 /node_modules
 /packages/
-webapp/**
-!webapp/config.json
+webapp/
 /.npmrc
 /*.log
 package-lock.json
@@ -14,7 +13,6 @@ package-lock.json
 electron/dist
 electron/pub
 **/.idea
-/config.json
 /config.json.*
 /config.local*.json
 /src/component-index.js
