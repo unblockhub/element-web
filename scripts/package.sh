@@ -8,8 +8,6 @@ else
     version=`git describe --dirty --tags || echo unknown`
 fi
 
-yarn clean
-
 # Workaround for build issues, see #16555
 (cd node_modules/matrix-react-sdk; yarn reskindex)
 
